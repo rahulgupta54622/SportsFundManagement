@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "867114926677",
+    "firebase_url": "https://sportsfundmanagement-53804.firebaseio.com",
+    "project_id": "sportsfundmanagement-53804",
+    "storage_bucket": "sportsfundmanagement-53804.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867114926677:android:29ee5b0ff5a395d7",
+        "android_client_info": {
+          "package_name": "com.gupta54622.rahul.sportsfundmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "867114926677-ee3knqp75hqueh13s5u2nvjt9hq3gsqr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gupta54622.rahul.sportsfundmanagement",
+            "certificate_hash": "c06bec0432708e168baf27219d48a8e23658ef1d"
+          }
+        },
+        {
+          "client_id": "867114926677-11kej58dsahiv8aabebnb0rrip304irt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeujrADlW1hKcaKGpKk4xrLT_oqRt23Tw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "867114926677-11kej58dsahiv8aabebnb0rrip304irt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

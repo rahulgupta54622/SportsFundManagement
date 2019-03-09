@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddAuthority">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+            />
+
+        <EditText
+            android:id="@+id/edit_text_authority_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="authority name"
+           android:layout_marginStart="60dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="email:"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+            />
+
+        <EditText
+            android:id="@+id/edit_text_authority_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="email"
+            android:inputType="textEmailAddress"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pass:"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+            />
+
+        <EditText
+            android:id="@+id/edit_text_authority_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="password"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mob:"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+            />
+
+        <EditText
+            android:id="@+id/edit_text_authority_mob_no"
+            android:layout_width="wrap_content"
+            android:inputType="phone"
+            android:layout_height="wrap_content"
+            android:hint="mob no"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_add_authority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="ADD"
+        />
+    
+
+
+
+</LinearLayout>
